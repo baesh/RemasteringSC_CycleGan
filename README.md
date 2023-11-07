@@ -1,18 +1,22 @@
 # RemasteringSC_CycleGan
 Reamastering Starcraft with CycleGan
 
-
+<br>
 #Task
 
 Given starcraft game video before remastered, convert the video into remastered version.
 
-
+<br>
 #Idea
 
 -Use Cycle Gan for training
+
 -batch size: 25
+
 -trained/generated image size: 128*128
+
 -epoch: 100000
+
 <br>
 #Layers
 
@@ -32,9 +36,13 @@ Layer connection
 #Codes
 
 -Change video to images: video_to_im.py
+
 -Training: train.py
+
 -Remastering image using trained data: remaster_image.py
+
 -Change images to video: create_vid.py
+
 -etc: layer.py, function_lists.py ('layer.py' contains generator and discriminator layers, 'function_lists.py' contains functions used in codes)
 
 <br>
